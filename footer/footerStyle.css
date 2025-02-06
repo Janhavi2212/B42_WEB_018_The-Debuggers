@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+}
+footer {
+  overflow-x: hidden;
+  width: 100%;
+  font-family: Lato, "Noto Sans", sans-serif;
+  background-color: #0b2149;
+  color: #8295ba;
+  padding: 15px 0px;
+  box-sizing: border-box;
+  padding-left: 10%;
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-weight: 650;
+}
+a:hover,
+#selectLangBtn:hover {
+  text-decoration: underline;
+}
+
+#fcontainer {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+#fTopPart {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  align-items: baseline;
+}
+#fDetail {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #8295ba;
+  font-size: 20px;
+}
+#fDetail a {
+  font-size: 20px;
+}
+
+/* Links style */
+#fLinks {
+  display: flex;
+  gap: 10px;
+}
+
+#fLinks > div {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  gap: 20px;
+}
+.appImg {
+  width: 100px;
+  height: 33px;
+}
+
+#fContact h2 {
+  color: white;
+  font-size: 13px;
+  margin-top: 40px;
+  margin-bottom: 0%;
+}
+
+#fContact > div {
+  margin-left: 5px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* language and coutry part */
+#flanguage {
+  display: flex;
+  align-items: center;
+  justify-content: last baseline;
+  height: 20px;
+}
+#flanguage > span:last-child {
+  color: white;
+  font-size: 20px;
+  margin-top: -13px;
+  margin-left: -3px;
+}
+#selectLangBtn {
+  background-color: #0b2149;
+  border: none;
+  color: white;
+}
+
+#fCountry img {
+  width: 16px;
+  height: 15px;
+  margin-bottom: -3px;
+  margin-left: 10px;
+}
+
+/* most bottom part */
+#fBottomPart {
+  width: 90%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#fBottomPart a {
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  align-items: center;
+  color: #ffffff;
+  display: inline-block;
+}
+
+#mediaLinks {
+  display: flex;
+}
+
+#mediaLinks span {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 10px;
+}
+.fbLogo {
+  background-image: url("https://cdn.kastatic.org/genwebpack/prod/en/images/e5b43b9c0717d989-facebook-logo-fill.svg");
+}
+.twLogo {
+  background-image: url("https://cdn.kastatic.org/genwebpack/prod/en/images/f5240dcae2b53974-twitter-logo-fill.svg");
+}
+.instaLogo {
+  background-image: url("https://cdn.kastatic.org/genwebpack/prod/en/images/62e92f7fbb787def-instagram-logo-fill.svg");
+}
+
+.copyrightDiv a {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 780px) {
+  #fTopPart {
+    flex-direction: column;
+  }
+  #fDetail {
+    width: 100%;
+    flex-direction: row;
+  }
+}
