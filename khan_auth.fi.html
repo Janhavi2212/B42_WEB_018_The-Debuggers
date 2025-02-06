@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khan Academy Sign Up</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Georgia, 'Times New Roman', serif;
+            display: flex;
+            height: 100vh;
+
+        }
+        .container {
+            display: flex;
+            width: 100%;
+        }
+        .left-section {
+            background-color: #2d5f45;
+            color: white;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+        }
+        .left-section .left-container {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        width: 60%; 
+        }
+        .illustration img {
+            width: 100%;
+        }
+        #learner-form select {
+            padding:5px 10px;
+        }
+        .right-section {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px;
+            align-items: center;
+        }
+        .right-section .right-container{
+            align-items: left;
+        }
+        .role-selector {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .role {
+            padding: 10px 20px;
+            border: none;
+            background: #ddd;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .role.active {
+            background: #0044cc;
+            color: white;
+        }
+        .signup-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+            max-width: 300px;
+            
+        }
+
+        .signup-buttons button{
+            background-color: white;
+            border: 1px solid black;
+            padding: 10px 30px;
+        }
+
+        .signup {
+            padding: 10px;
+            border: none;
+            width: 100%;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .signup:hover {
+        border: 1px solid blue;
+        }
+
+
+        .login-link {
+            margin-top: 20px;
+        }
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="left-container">
+                <div class="illustration">
+                    <img src="https://blog.khanacademy.org/wp-content/uploads/2024/11/Blog_FeatureImage.jpg" alt="School Illustration">
+                </div>
+                <h1 id="left-title">Join Khan Academy to activate your teaching</h1>
+                <p id="left-desc">Log in to Khan Academy to get started!</p>
+                <small>By signing up for Khan Academy, you agree to our <a href="#">Terms of use</a> and <a href="#">Privacy Policy</a>.</small>
+    
+            </div>
+       </div>
+        <div class="right-section">
+            <div class="right-continer">
+                <h2>Sign up</h2>
+            <p>Join Khan Academy for free as a</p>
+            <div class="role-selector">
+                <button class="role active" onclick="switchRole('learner')">Learner</button>
+                <button class="role" onclick="switchRole('teacher')">Teacher</button>
+                <button class="role" onclick="switchRole('parent')">Parent</button>
+            </div>
+            <div id="learner-form">
+                <p>What is your date of birth?</p>
+                <select id="month">
+                    <option value="">Month</option>
+                    <option value="Jan">Jan</option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Mar</option>
+                    <option value="Apr">Apr</option>
+                    <option value="May">May</option>
+                    <option value="Jun">Jun</option>
+                    <option value="Jul">Jul</option>
+                    <option value="Aug">Aug</option>
+                    <option value="Sep">Sep</option>
+                    <option value="Oct">Oct</option>
+                    <option value="Nov">Nov</option>
+                    <option value="Dec">Dec</option>
+                </select>
+                <select id="day"><option value="">Day</option></select>
+                <select id="year"><option value="">Year</option></select>
+            </div>
+            <div id="teacher-form" class="hidden">
+                <div class="signup-buttons">
+                    <button class="signup google" onclick="openPopup('https://accounts.google.com/signin')">Continue with Google</button>
+                    <button class="signup clever" onclick="openPopup('https://clever.com/oauth')">Continue with Clever</button>
+                    <button class="signup facebook" onclick="openPopup('https://www.facebook.com/login')">Continue with Facebook</button>
+                    <button class="signup apple" onclick="openPopup('https://appleid.apple.com/auth/authorize')">Continue with Apple</button>
+                    <button class="signup email" onclick="openPopup('https://yourwebsite.com/signup')">Sign up with Email</button>
+                </div>
+                
+              
+                
+                
+            </div>
+            <div id="parent-form" class="hidden">
+                 <div class="signup-buttons">
+                    <div class="signup-buttons">
+                        <button class="signup google" onclick="openPopup('https://accounts.google.com/signin')">Continue with Google</button>
+                        <button class="signup facebook" onclick="openPopup('https://www.facebook.com/login')">Continue with Facebook</button>
+                        <button class="signup apple" onclick="openPopup('https://appleid.apple.com/auth/authorize')">Continue with Apple</button>
+                        <button class="signup email" onclick="openPopup('https://yourwebsite.com/signup')">Sign up with Email</button>
+                    </div>
+            
+                    
+
+
+
+
+            </div>
+            
+            <p class="login-link">Already have an account? <a href="#">Log in</a></p>
+        </div>
+
+            </div>
+            
+    </div>
+    <script>
+        function switchRole(role) {
+    document.querySelectorAll('.role').forEach(btn => btn.classList.remove('active'));
+    document.querySelector(`.role[onclick="switchRole('${role}')"]`).classList.add('active');
+    
+    if (role === 'learner') {
+        document.getElementById('learner-form').classList.remove('hidden');
+        document.getElementById('teacher-form').classList.add('hidden');
+        document.getElementById('parent-form').classList.add('hidden');
+        document.getElementById('left-title').textContent = "Join Khan Academy to activate your learning";
+        document.getElementById('left-desc').textContent = "Log in to Khan Academy to get started!";
+    } else if (role === 'teacher') {
+        document.getElementById('learner-form').classList.add('hidden');
+        document.getElementById('teacher-form').classList.remove('hidden');
+        document.getElementById('parent-form').classList.add('hidden');
+        document.getElementById('left-title').textContent = "Join Khan Academy to activate your teaching";
+        document.getElementById('left-desc').textContent = "Log in to Khan Academy to get started!";
+    } else if (role === 'parent') {
+        document.getElementById('learner-form').classList.add('hidden');
+        document.getElementById('teacher-form').classList.add('hidden');
+        document.getElementById('parent-form').classList.remove('hidden');
+        document.getElementById('left-title').textContent = "Support your child’s learning through Khan Academy";
+        document.getElementById('left-desc').textContent = "Log in to Khan Academy to get started!";
+    }
+}
+
+
+        const daySelect = document.getElementById("day");
+        for (let i = 1; i <= 31; i++) {
+            let option = document.createElement("option");
+            option.value = i;
+            option.textContent = i;
+            daySelect.appendChild(option);
+        }
+        const yearSelect = document.getElementById("year");
+        const currentYear = new Date().getFullYear();
+        for (let i = currentYear; i >= 1900; i--) {
+            let option = document.createElement("option");
+            option.value = i;
+            option.textContent = i;
+            yearSelect.appendChild(option);
+        }
+
+                    function openPopup(url) {
+                        window.open(url, '_blank', 'width=600,height=600');
+                    }
+            
+    </script>
+</body>
+</html>

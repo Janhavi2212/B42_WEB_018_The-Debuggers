@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khan Academy Donation Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 15px 20px;
+            border-bottom: 2px solid #d3d3d3;
+        }
+        .logo {
+            height: 30px;
+        }
+        .donate-btn {
+            background-color: #0056d2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .donate-btn:hover {
+            background-color: #0041a8;
+        }
+        .donation-section, .info-section, .contact-section {
+            margin: 40px auto;
+            max-width: 700px;
+            text-align: left;
+            line-height: 1.6;
+        }
+        .donation-section h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .note {
+            font-size: 12px;
+            color: #777;
+        }
+        iframe {
+            width: 100%;
+            max-width: 700px;
+            height: 390px;
+        }
+        footer {
+            display:flex;
+            background-color: navy;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+        footer p{
+            flex-grow: 1;
+            text-align: left;
+        }
+        footer p a{
+            color: white;
+        }
+        .social-icons img {
+            height: 25px;
+            margin: 5px;
+        }
+        a {
+            color: #0056d2;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <img src="https://cdn.prod.website-files.com/602d4ff69767dd8dc09c31f2/602d6e491f08087eb1745867_KeepLearingv4_KALogo.svg" alt="Khan Academy Logo" class="logo">
+            <button class="donate-btn">Donate Now</button>
+        </div>
+    </header>
+    <main>
+        <section class="donation-section">
+            <h1>Help us do more</h1>
+            <p>We’ll get right to the point: we’re asking you to help support Khan Academy. We’re a nonprofit that relies on support from people like you. Any donation amount is welcome and deeply appreciated.</p>
+            <p>Please help keep Khan Academy free, for anyone, anywhere forever.</p>
+            <button class="donate-btn">Donate Now</button>
+            <p class="note">Only Indian citizens can donate to Khan Academy India.</p>
+        </section>
+        <section class="info-section">
+            <p>Your donation supports our partnerships, people and technology, enabling us to create great content and a great experience for teachers and students!</p>
+            <p>Check out this video which shows a glimpse of how our work has made a real difference for teachers and students.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5JdC2BC6alk" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <section class="contact-section">
+            <h2>Contact us</h2>
+            <p>If you have questions about the status of your donation data, please contact <a href="mailto:indiadonation@khanacademy.org">indiadonation@khanacademy.org</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Khan Academy <a href="#">Terms of Use</a> <a href="#">Privacy Policy</a> <a href="#">Refund Policy</a></p>
+        <div class="social-icons">
+            <img src="facebook-icon.png" alt="Facebook">
+            <img src="twitter-icon.png" alt="Twitter">
+            <img src="instagram-icon.png" alt="Insta">
+        </div>
+    </footer>
+</body>
+</html>
