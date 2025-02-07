@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <style>
+      #dropdown {
+        position: relative;
+      }
+      .dropdownCtnClose {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        background-color: antiquewhite;
+        position: absolute;
+        width: 100vw;
+        top: 100%;
+      }
+      .dropdownCtnShow {
+        display: none;
+        position: absolute;
+      }
+      #dropdownCtn > div {
+        display: flex;
+        flex-direction: column;
+      }
+      #dropdownCtn a {
+        text-decoration: none;
+        color: black;
+        padding: 0.6rem;
+
+        display: inline-block;
+      }
+      #exploreBtn {
+        display: inline-block;
+
+        padding: 0.6rem;
+        margin: 0.6rem;
+      }
+      #exploreBtn:hover {
+        cursor: pointer;
+        border-bottom: 3px solid blue;
+        color: blue;
+        transition: all 0.2s ease-in-out;
+      }
+      @media screen and (max-width: 768px) {
+        .dropdownCtnClose {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media screen and (max-width: 480px) {
+        .dropdownCtnClose {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="dropdown">
+      <p style="font-size: large" id="exploreBtn">
+        Explores<span id="dropdownIcon"
+          ><i class="bi bi-arrow-down" id="toggleIcn"></i
+        ></span>
+      </p>
+
+      <div id="dropdownCtn" class="dropdownCtnShow">
+        <div>
+          <a href="" style="font-weight: bold">MATH (NCERT)</a>
+          <a href="class1Demo.html">Class 1</a>
+          <a href="">Class 2</a>
+          <a href="">Class 3</a>
+          <a href="">Class 4</a>
+          <a href="">Class 5</a>
+          <a href="">Class 6</a>
+          <a href="">Class 7</a>
+          <a href="">Class 8</a>
+          <a href="">Class 9</a>
+          <a href="">Class 10</a>
+          <a href="">Class 11</a>
+          <a href="">Class 12</a>
+
+          <a href="">Board Prep Class 10 <span>NEW</span></a>
+          <a href="">Board Prep Class 12 <span>NEW</span></a>
+        </div>
+        <div>
+          <a href="" style="font-weight: bold">MATH FOUNDATIONS</a>
+          <a href="">Class 6</a>
+          <a href="">Class 7</a>
+          <a href="">Class 8</a>
+          <a href="">Class 9</a>
+          <a href="">Class 10</a>
+
+          <a href="" style="font-weight: bold">MATH (Maharashtra) </a>
+          <a href="">Class 1</a>
+          <a href="">Class 2</a>
+          <a href="">Class 3</a>
+          <a href="">Class 4</a>
+          <a href="">Class 5</a>
+          <a href="">Class 6</a>
+          <a href="">Class 7</a>
+          <a href="">Class 8</a>
+          <a href="">Class 9</a>
+          <a href="">Class 10</a>
+        </div>
+
+        <div>
+          <a href="" style="font-weight: bold">SCIENCE (NCERT)</a>
+          <a href="">Class 9 Phy</a>
+          <a href="">Class 9 Chem</a>
+          <a href="">Class 9 Bio</a>
+          <a href="">Class 10 Phy</a>
+          <a href="">Class 10 Chem</a>
+          <a href="">Class 10 Bio</a>
+          <a href="">Class 11 Phy</a>
+          <a href="">Class 11 Phy - Hinglish</a>
+          <a href="">Class 11 Chem</a>
+          <a href="">Class 11 Bio</a>
+          <a href="">Class 12 Phy</a>
+        </div>
+        <div>
+          <a href="" style="font-weight: bold">ALL STATE BOARDS</a>
+          <a href="">Punjab</a>
+          <a href="">Uttar Pradesg</a>
+          <a href="">Maharashtra</a>
+          <a href="">Assam</a>
+          <a href="">Odisha</a>
+          <a href="">NCERT (Hinglish)</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  let exploresBtn = document.querySelector("#exploreBtn");
+  let dropdownIcon = document.querySelector("#dropdownIcon");
+  let toggleIcn = document.querySelector("#toggleIcn");
+  let dropdownCtn = document.querySelector("#dropdownCtn");
+  exploresBtn.addEventListener("click", () => {
+    dropdownFun();
+  });
+
+  function dropdownFun() {
+    toggleIcn.classList.toggle("bi-arrow-up");
+    toggleIcn.classList.toggle("bi-arrow-down");
+    dropdownCtn.classList.toggle("dropdownCtnClose");
+    dropdownCtn.classList.toggle("dropdownCtnShow");
+  }
+</script>

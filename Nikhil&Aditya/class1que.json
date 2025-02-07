@@ -1,0 +1,677 @@
+{
+  "class1": [
+    {
+      "unit_number": 1,
+      "unit_title": "Numbers from 1 to 9",
+      "topics": {
+        "Counting objects": [
+          {
+            "question": "Count the number of apples: 🍎🍎🍎🍎🍎. How many apples are there?",
+            "options": ["3", "4", "5", "6"],
+            "correct_answer": "5"
+          },
+          {
+            "question": "Count the number of stars: ⭐⭐⭐⭐. How many stars are there?",
+            "options": ["2", "3", "4", "5"],
+            "correct_answer": "4"
+          },
+          {
+            "question": "Count the number of oranges: 🍊🍊🍊🍊🍊🍊. How many oranges are there?",
+            "options": ["5", "6", "7", "8"],
+            "correct_answer": "6"
+          },
+          {
+            "question": "Count the number of pencils: ✏️✏️✏️. How many pencils are there?",
+            "options": ["2", "3", "4", "5"],
+            "correct_answer": "3"
+          },
+          {
+            "question": "Count the number of balloons: 🎈🎈🎈🎈🎈🎈🎈. How many balloons are there?",
+            "options": ["6", "7", "8", "9"],
+            "correct_answer": "7"
+          }
+        ],
+        "Ordering numbers": [
+          {
+            "question": "Arrange these numbers in order from smallest to largest: 7, 2, 5, 9, 1.",
+            "options": [
+              "1, 2, 5, 7, 9",
+              "9, 7, 5, 2, 1",
+              "2, 1, 5, 7, 9",
+              "5, 7, 9, 2, 1"
+            ],
+            "correct_answer": "1, 2, 5, 7, 9"
+          },
+          {
+            "question": "Which number comes first when arranged in ascending order? 3, 8, 1, 6.",
+            "options": ["3", "8", "1", "6"],
+            "correct_answer": "1"
+          },
+          {
+            "question": "Which number is the largest? 4, 7, 2, 9.",
+            "options": ["4", "7", "2", "9"],
+            "correct_answer": "9"
+          },
+          {
+            "question": "Arrange these numbers in descending order: 6, 3, 8, 2.",
+            "options": ["8, 6, 3, 2", "2, 3, 6, 8", "6, 3, 2, 8", "3, 8, 6, 2"],
+            "correct_answer": "8, 6, 3, 2"
+          },
+          {
+            "question": "Which number is missing in the sequence? 2, 4, __, 8.",
+            "options": ["5", "6", "7", "3"],
+            "correct_answer": "6"
+          }
+        ],
+        "Comparing objects": [
+          {
+            "question": "Which group has more stars? Group A: ⭐⭐⭐ Group B: ⭐⭐⭐⭐",
+            "options": [
+              "Group A",
+              "Group B",
+              "Both are equal",
+              "Cannot determine"
+            ],
+            "correct_answer": "Group B"
+          },
+          {
+            "question": "Which group has fewer apples? Group A: 🍎🍎🍎🍎 Group B: 🍎🍎🍎",
+            "options": [
+              "Group A",
+              "Group B",
+              "Both are equal",
+              "Cannot determine"
+            ],
+            "correct_answer": "Group B"
+          },
+          {
+            "question": "Which group has more oranges? Group A: 🍊🍊🍊🍊🍊🍊 Group B: 🍊🍊🍊",
+            "options": [
+              "Group A",
+              "Group B",
+              "Both are equal",
+              "Cannot determine"
+            ],
+            "correct_answer": "Group A"
+          },
+          {
+            "question": "Which group has fewer pencils? Group A: ✏️✏️✏️✏️✏️ Group B: ✏️✏️✏️",
+            "options": [
+              "Group A",
+              "Group B",
+              "Both are equal",
+              "Cannot determine"
+            ],
+            "correct_answer": "Group B"
+          },
+          {
+            "question": "Which group has more balloons? Group A: 🎈🎈🎈 Group B: 🎈🎈🎈🎈🎈",
+            "options": [
+              "Group A",
+              "Group B",
+              "Both are equal",
+              "Cannot determine"
+            ],
+            "correct_answer": "Group B"
+          }
+        ],
+        "Comparing numbers to 10": [
+          {
+            "question": "Which number is greater? 7 or 9?",
+            "options": ["7", "9", "They are equal", "Cannot determine"],
+            "correct_answer": "9"
+          },
+          {
+            "question": "Which number is smaller? 3 or 8?",
+            "options": ["3", "8", "They are equal", "Cannot determine"],
+            "correct_answer": "3"
+          },
+          {
+            "question": "Which number is greater than 5? 2 or 6?",
+            "options": ["2", "6", "They are equal", "Cannot determine"],
+            "correct_answer": "6"
+          },
+          {
+            "question": "Which number is less than 10? 10 or 4?",
+            "options": ["10", "4", "Both", "None"],
+            "correct_answer": "4"
+          },
+          {
+            "question": "Which number is the smallest? 1, 9, or 5?",
+            "options": ["1", "9", "5", "They are equal"],
+            "correct_answer": "1"
+          }
+        ],
+        "Addition within 5": [
+          {
+            "question": "What is 2 + 1?",
+            "options": ["2", "3", "4", "5"],
+            "correct_answer": "3"
+          },
+          {
+            "question": "What is 4 + 0?",
+            "options": ["0", "4", "5", "6"],
+            "correct_answer": "4"
+          },
+          {
+            "question": "If you have 3 apples and get 2 more, how many do you have in total?",
+            "options": ["4", "5", "6", "3"],
+            "correct_answer": "5"
+          },
+          {
+            "question": "What is 1 + 1?",
+            "options": ["1", "2", "3", "4"],
+            "correct_answer": "2"
+          },
+          {
+            "question": "Complete the equation: 3 + __ = 5",
+            "options": ["1", "2", "3", "4"],
+            "correct_answer": "2"
+          }
+        ],
+        "Making 5": [
+          {
+            "question": "Which pair of numbers makes 5? (Choose the correct pair)",
+            "options": ["3 and 2", "4 and 4", "1 and 3", "2 and 1"],
+            "correct_answer": "3 and 2"
+          },
+          {
+            "question": "Fill in the blank: 2 + __ = 5",
+            "options": ["1", "2", "3", "4"],
+            "correct_answer": "3"
+          },
+          {
+            "question": "What number do you add to 4 to make 5?",
+            "options": ["1", "2", "3", "4"],
+            "correct_answer": "1"
+          },
+          {
+            "question": "Which of these does NOT add up to 5?",
+            "options": ["2 + 3", "5 + 0", "1 + 4", "3 + 1"],
+            "correct_answer": "3 + 1"
+          },
+          {
+            "question": "Complete the pair: 5 = __ + 2",
+            "options": ["1", "2", "3", "4"],
+            "correct_answer": "3"
+          }
+        ]
+      }
+    },
+    {
+      "unit_number": 2,
+      "unit_title": "Numbers from 10 to 20",
+      "topics": {
+        "Identifying numbers": [
+          {
+            "question": "What number comes after 14?",
+            "options": ["12", "13", "15", "16"],
+            "correct_answer": "15"
+          },
+          {
+            "question": "What number is before 11?",
+            "options": ["9", "10", "12", "13"],
+            "correct_answer": "10"
+          },
+          {
+            "question": "Which of these numbers is between 10 and 20?",
+            "options": ["8", "22", "15", "25"],
+            "correct_answer": "15"
+          },
+          {
+            "question": "What number comes after 19?",
+            "options": ["17", "18", "20", "21"],
+            "correct_answer": "20"
+          },
+          {
+            "question": "Which of these numbers is the largest?",
+            "options": ["12", "16", "18", "14"],
+            "correct_answer": "18"
+          }
+        ],
+        "Finding 1 more or 1 less": [
+          {
+            "question": "What is 1 more than 17?",
+            "options": ["16", "17", "18", "19"],
+            "correct_answer": "18"
+          },
+          {
+            "question": "What is 1 less than 12?",
+            "options": ["10", "11", "12", "13"],
+            "correct_answer": "11"
+          },
+          {
+            "question": "If you add 1 to 14, what number do you get?",
+            "options": ["13", "14", "15", "16"],
+            "correct_answer": "15"
+          },
+          {
+            "question": "What number is 1 less than 20?",
+            "options": ["18", "19", "20", "21"],
+            "correct_answer": "19"
+          },
+          {
+            "question": "What is 1 more than 10?",
+            "options": ["9", "10", "11", "12"],
+            "correct_answer": "11"
+          }
+        ],
+        "Counting in pictures": [
+          {
+            "question": "Count the apples: 🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎. How many apples are there?",
+            "options": ["10", "11", "12", "13"],
+            "correct_answer": "12"
+          },
+          {
+            "question": "Count the stars: ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐. How many stars are there?",
+            "options": ["8", "9", "10", "11"],
+            "correct_answer": "10"
+          },
+          {
+            "question": "Count the balloons: 🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈. How many balloons are there?",
+            "options": ["9", "10", "11", "12"],
+            "correct_answer": "11"
+          },
+          {
+            "question": "Count the oranges: 🍊🍊🍊🍊🍊🍊🍊🍊🍊🍊🍊🍊🍊. How many oranges are there?",
+            "options": ["12", "13", "14", "15"],
+            "correct_answer": "13"
+          },
+          {
+            "question": "Count the pencils: ✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️. How many pencils are there?",
+            "options": ["12", "13", "14", "15"],
+            "correct_answer": "14"
+          }
+        ],
+        "Counting objects": [
+          {
+            "question": "Count the books: 📚📚📚📚📚📚📚📚📚📚📚📚📚📚📚. How many books are there?",
+            "options": ["14", "15", "16", "17"],
+            "correct_answer": "15"
+          },
+          {
+            "question": "Count the butterflies: 🦋🦋🦋🦋🦋🦋🦋🦋🦋🦋. How many butterflies are there?",
+            "options": ["8", "9", "10", "11"],
+            "correct_answer": "10"
+          },
+          {
+            "question": "Count the candies: 🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬. How many candies are there?",
+            "options": ["9", "10", "11", "12"],
+            "correct_answer": "11"
+          },
+          {
+            "question": "Count the hearts: ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️. How many hearts are there?",
+            "options": ["10", "11", "12", "13"],
+            "correct_answer": "12"
+          },
+          {
+            "question": "Count the teddy bears: 🧸🧸🧸🧸🧸🧸🧸🧸🧸🧸. How many teddy bears are there?",
+            "options": ["8", "9", "10", "11"],
+            "correct_answer": "10"
+          }
+        ],
+        "Addition within 20": [
+          {
+            "question": "What is 10 + 5?",
+            "options": ["12", "13", "14", "15"],
+            "correct_answer": "15"
+          },
+          {
+            "question": "What is 7 + 6?",
+            "options": ["11", "12", "13", "14"],
+            "correct_answer": "13"
+          },
+          {
+            "question": "If you have 9 pencils and get 8 more, how many do you have?",
+            "options": ["15", "16", "17", "18"],
+            "correct_answer": "17"
+          },
+          {
+            "question": "What is 12 + 4?",
+            "options": ["14", "15", "16", "17"],
+            "correct_answer": "16"
+          },
+          {
+            "question": "Complete the equation: 6 + __ = 18",
+            "options": ["10", "11", "12", "13"],
+            "correct_answer": "12"
+          }
+        ],
+        "Adding three numbers": [
+          {
+            "question": "What is 2 + 3 + 4?",
+            "options": ["7", "8", "9", "10"],
+            "correct_answer": "9"
+          },
+          {
+            "question": "What is 5 + 6 + 2?",
+            "options": ["11", "12", "13", "14"],
+            "correct_answer": "13"
+          },
+          {
+            "question": "If you add 1, 9, and 6, what is the total?",
+            "options": ["15", "16", "17", "18"],
+            "correct_answer": "16"
+          },
+          {
+            "question": "What is 4 + 8 + 7?",
+            "options": ["18", "19", "20", "21"],
+            "correct_answer": "19"
+          },
+          {
+            "question": "What is 10 + 3 + 6?",
+            "options": ["17", "18", "19", "20"],
+            "correct_answer": "19"
+          }
+        ]
+      }
+    },
+    {
+      "unit_number": 3,
+      "unit_title": "Numbers from 1 to 100",
+      "topics": {
+        "Finding missing numbers": [
+          {
+            "question": "What number is missing in the sequence? 10, 20, __, 40.",
+            "options": ["30", "25", "35", "45"],
+            "correct_answer": "30"
+          },
+          {
+            "question": "Fill in the blank: 15, 25, __, 45.",
+            "options": ["30", "35", "40", "50"],
+            "correct_answer": "35"
+          },
+          {
+            "question": "Which number completes the pattern? 5, 10, 15, __.",
+            "options": ["20", "25", "30", "35"],
+            "correct_answer": "20"
+          },
+          {
+            "question": "Find the missing number: 50, 60, __, 80.",
+            "options": ["65", "70", "75", "85"],
+            "correct_answer": "70"
+          },
+          {
+            "question": "Complete the sequence: 70, 80, __, 100.",
+            "options": ["85", "90", "95", "75"],
+            "correct_answer": "90"
+          }
+        ],
+        "Counting to 100": [
+          {
+            "question": "Count the number of flowers: 🌸🌸🌸🌸🌸🌸🌸🌸🌸. How many flowers are there?",
+            "options": ["8", "9", "10", "11"],
+            "correct_answer": "9"
+          },
+          {
+            "question": "Count the number of stars: ⭐⭐⭐⭐⭐⭐⭐⭐⭐. How many stars are there?",
+            "options": ["9", "10", "11", "12"],
+            "correct_answer": "10"
+          },
+          {
+            "question": "Count the number of candies: 🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬. How many candies are there?",
+            "options": ["10", "11", "12", "13"],
+            "correct_answer": "11"
+          },
+          {
+            "question": "Count the number of pencils: ✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️✏️. How many pencils are there?",
+            "options": ["11", "12", "13", "14"],
+            "correct_answer": "12"
+          },
+          {
+            "question": "Count the number of balloons: 🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈. How many balloons are there?",
+            "options": ["12", "13", "14", "15"],
+            "correct_answer": "13"
+          }
+        ],
+        "Counting by tens": [
+          {
+            "question": "Count by tens: 10, 20, 30, __.",
+            "options": ["40", "50", "60", "70"],
+            "correct_answer": "40"
+          },
+          {
+            "question": "Fill in the blank: 30, 40, 50, __.",
+            "options": ["60", "70", "80", "90"],
+            "correct_answer": "60"
+          },
+          {
+            "question": "Which number comes next in the sequence? 70, 80, 90, __.",
+            "options": ["100", "110", "120", "130"],
+            "correct_answer": "100"
+          },
+          {
+            "question": "Complete the pattern: 40, 50, 60, __.",
+            "options": ["70", "80", "90", "100"],
+            "correct_answer": "70"
+          },
+          {
+            "question": "What number follows 90 when counting by tens?",
+            "options": ["100", "110", "120", "130"],
+            "correct_answer": "100"
+          }
+        ],
+        "Groups of ten objects": [
+          {
+            "question": "How many groups of 10 are there in 50 objects?",
+            "options": ["3", "4", "5", "6"],
+            "correct_answer": "5"
+          },
+          {
+            "question": "If you have 80 objects, how many groups of 10 can you make?",
+            "options": ["6", "7", "8", "9"],
+            "correct_answer": "8"
+          },
+          {
+            "question": "How many groups of 10 are in 70 objects?",
+            "options": ["5", "6", "7", "8"],
+            "correct_answer": "7"
+          },
+          {
+            "question": "How many groups of 10 can you make with 100 objects?",
+            "options": ["8", "9", "10", "11"],
+            "correct_answer": "10"
+          },
+          {
+            "question": "If you have 60 objects, how many groups of 10 are there?",
+            "options": ["4", "5", "6", "7"],
+            "correct_answer": "6"
+          }
+        ],
+        "Tens and ones": [
+          {
+            "question": "What is the tens digit in the number 34?",
+            "options": ["3", "4", "7", "0"],
+            "correct_answer": "3"
+          },
+          {
+            "question": "What is the ones digit in the number 82?",
+            "options": ["2", "8", "1", "0"],
+            "correct_answer": "2"
+          },
+          {
+            "question": "In the number 57, what is the tens digit?",
+            "options": ["5", "7", "2", "3"],
+            "correct_answer": "5"
+          },
+          {
+            "question": "What is the ones digit in the number 19?",
+            "options": ["1", "9", "0", "2"],
+            "correct_answer": "9"
+          },
+          {
+            "question": "In the number 68, what is the tens digit?",
+            "options": ["6", "8", "4", "2"],
+            "correct_answer": "6"
+          }
+        ],
+        "Comparing two-digit numbers": [
+          {
+            "question": "Which number is greater: 45 or 54?",
+            "options": ["45", "54", "They are equal", "Cannot determine"],
+            "correct_answer": "54"
+          },
+          {
+            "question": "Which number is smaller: 72 or 27?",
+            "options": ["72", "27", "They are equal", "Cannot determine"],
+            "correct_answer": "27"
+          },
+          {
+            "question": "Which is the largest number: 81, 18, 28?",
+            "options": ["81", "18", "28", "Cannot determine"],
+            "correct_answer": "81"
+          },
+          {
+            "question": "Which is the smallest number: 64, 46, 56?",
+            "options": ["64", "46", "56", "Cannot determine"],
+            "correct_answer": "46"
+          },
+          {
+            "question": "Compare 59 and 95: which is greater?",
+            "options": ["59", "95", "They are equal", "Cannot determine"],
+            "correct_answer": "95"
+          }
+        ]
+      }
+    },
+    {
+      "unit_number": 4,
+      "unit_title": "Geometry and Measurement",
+      "topics": {
+        "Above and below, front and back": [
+          {
+            "question": "Which object is above the table?",
+            "options": ["Lamp", "Chair", "Carpet", "Shoes"],
+            "correct_answer": "Lamp"
+          },
+          {
+            "question": "Which object is in front of the sofa?",
+            "options": ["Television", "Desk", "Bookcase", "Door"],
+            "correct_answer": "Television"
+          },
+          {
+            "question": "Which object is below the shelf?",
+            "options": ["Books", "Clock", "Curtains", "Plant"],
+            "correct_answer": "Plant"
+          },
+          {
+            "question": "Which object is behind the curtain?",
+            "options": ["Window", "Chair", "Table", "Cushion"],
+            "correct_answer": "Window"
+          },
+          {
+            "question": "Which object is in front of the door?",
+            "options": ["Mat", "Lamp", "Sofa", "Painting"],
+            "correct_answer": "Mat"
+          }
+        ],
+        "Small and big": [
+          {
+            "question": "Which object is bigger? Elephant or Mouse?",
+            "options": [
+              "Elephant",
+              "Mouse",
+              "Both are equal",
+              "Cannot determine"
+            ],
+            "correct_answer": "Elephant"
+          },
+          {
+            "question": "Which object is smaller? Apple or Watermelon?",
+            "options": [
+              "Apple",
+              "Watermelon",
+              "Both are equal",
+              "Cannot determine"
+            ],
+            "correct_answer": "Apple"
+          },
+          {
+            "question": "Which is the biggest object? Car, Bicycle, or Scooter?",
+            "options": ["Car", "Bicycle", "Scooter", "Cannot determine"],
+            "correct_answer": "Car"
+          },
+          {
+            "question": "Which is the smallest object? Pen, Pencil, or Eraser?",
+            "options": ["Pen", "Pencil", "Eraser", "Cannot determine"],
+            "correct_answer": "Eraser"
+          },
+          {
+            "question": "Which object is bigger? House or Tree?",
+            "options": ["House", "Tree", "Both are equal", "Cannot determine"],
+            "correct_answer": "House"
+          }
+        ],
+        "Ordering by length": [
+          {
+            "question": "Arrange these objects by length from shortest to longest: Pencil, Ruler, Rope.",
+            "options": [
+              "Pencil, Ruler, Rope",
+              "Rope, Pencil, Ruler",
+              "Ruler, Rope, Pencil",
+              "Pencil, Rope, Ruler"
+            ],
+            "correct_answer": "Pencil, Ruler, Rope"
+          },
+          {
+            "question": "Which object is the longest: Pen, Marker, or Crayon?",
+            "options": ["Pen", "Marker", "Crayon", "Cannot determine"],
+            "correct_answer": "Marker"
+          },
+          {
+            "question": "Arrange these items by length from longest to shortest: Stick, Straw, Branch.",
+            "options": [
+              "Branch, Stick, Straw",
+              "Straw, Stick, Branch",
+              "Stick, Branch, Straw",
+              "Branch, Straw, Stick"
+            ],
+            "correct_answer": "Branch, Stick, Straw"
+          },
+          {
+            "question": "Which is the shortest item: Notebook, Textbook, or Magazine?",
+            "options": ["Notebook", "Textbook", "Magazine", "Cannot determine"],
+            "correct_answer": "Notebook"
+          },
+          {
+            "question": "Order these items by length from shortest to longest: Spoon, Fork, Knife.",
+            "options": [
+              "Spoon, Fork, Knife",
+              "Fork, Spoon, Knife",
+              "Knife, Fork, Spoon",
+              "Spoon, Knife, Fork"
+            ],
+            "correct_answer": "Spoon, Fork, Knife"
+          }
+        ],
+        "Measuring length with non-standard units": [
+          {
+            "question": "If a book is 5 paperclips long, how many paperclips long is a notebook that is twice as long?",
+            "options": ["5", "10", "15", "20"],
+            "correct_answer": "10"
+          },
+          {
+            "question": "A table is 12 pencils long. If a chair is half the length of the table, how many pencils long is the chair?",
+            "options": ["6", "8", "10", "12"],
+            "correct_answer": "6"
+          },
+          {
+            "question": "A door is 8 markers tall. If a window is 4 markers tall, how many markers taller is the door than the window?",
+            "options": ["2", "4", "6", "8"],
+            "correct_answer": "4"
+          },
+          {
+            "question": "If a bed is 15 shoes long and a rug is 5 shoes long, how many rugs can fit along the length of the bed?",
+            "options": ["2", "3", "4", "5"],
+            "correct_answer": "3"
+          },
+          {
+            "question": "A shelf is 9 erasers long. If a box is 3 erasers long, how many boxes can fit along the shelf?",
+            "options": ["2", "3", "4", "5"],
+            "correct_answer": "3"
+          }
+        ]
+      }
+    }
+  ]
+}
