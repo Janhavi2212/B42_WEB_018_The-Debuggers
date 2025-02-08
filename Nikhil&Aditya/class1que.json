@@ -673,5 +673,371 @@
         ]
       }
     }
+  ],
+
+  "class2": [
+    {
+      "unit_number": 1,
+      "unit_title": "Numbers from 1 to 100",
+      "topics": {
+        "Ordering numbers": [
+          {
+            "question": "Which set of numbers is in ascending order?",
+            "options": [
+              "56, 45, 78, 12",
+              "12, 34, 45, 56, 78",
+              "78, 56, 45, 34, 12",
+              "45, 78, 12, 56"
+            ],
+            "correct_answer": "12, 34, 45, 56, 78"
+          },
+          {
+            "question": "What is the largest number among 23, 67, 45, 89, 12?",
+            "options": ["23", "67", "89", "12"],
+            "correct_answer": "89"
+          },
+          {
+            "question": "Arrange these numbers in descending order: 9, 15, 3, 20",
+            "options": [
+              "3, 9, 15, 20",
+              "20, 15, 9, 3",
+              "9, 3, 15, 20",
+              "15, 20, 3, 9"
+            ],
+            "correct_answer": "20, 15, 9, 3"
+          },
+          {
+            "question": "Which number comes after 29?",
+            "options": ["27", "28", "30", "31"],
+            "correct_answer": "30"
+          },
+          {
+            "question": "Which number comes before 50?",
+            "options": ["48", "49", "51", "52"],
+            "correct_answer": "49"
+          }
+        ],
+        "Comparing 2 digits numbers": [
+          {
+            "question": "Which number is greater: 36 or 29?",
+            "options": ["29", "36", "They are equal", "None"],
+            "correct_answer": "36"
+          },
+          {
+            "question": "Which number is smaller: 81 or 90?",
+            "options": ["81", "90", "They are equal", "None"],
+            "correct_answer": "81"
+          },
+          {
+            "question": "Which is the greatest number: 54, 45, 87, 33?",
+            "options": ["54", "45", "87", "33"],
+            "correct_answer": "87"
+          },
+          {
+            "question": "What is the smallest number: 72, 55, 43, 38?",
+            "options": ["72", "55", "43", "38"],
+            "correct_answer": "38"
+          },
+          {
+            "question": "Which number is greater: 15 or 51?",
+            "options": ["15", "51", "They are equal", "None"],
+            "correct_answer": "51"
+          }
+        ],
+        "Place value": [
+          {
+            "question": "In the number 42, what is the place value of 4?",
+            "options": ["Ones", "Tens", "Hundreds", "Thousands"],
+            "correct_answer": "Tens"
+          },
+          {
+            "question": "What is the place value of 7 in 75?",
+            "options": ["Ones", "Tens", "Hundreds", "Thousands"],
+            "correct_answer": "Tens"
+          },
+          {
+            "question": "In the number 839, what is the place value of 3?",
+            "options": ["Ones", "Tens", "Hundreds", "Thousands"],
+            "correct_answer": "Tens"
+          },
+          {
+            "question": "What is the place value of 9 in 96?",
+            "options": ["Ones", "Tens", "Hundreds", "Thousands"],
+            "correct_answer": "Tens"
+          },
+          {
+            "question": "What is the place value of 2 in 203?",
+            "options": ["Ones", "Tens", "Hundreds", "Thousands"],
+            "correct_answer": "Hundreds"
+          }
+        ]
+      }
+    },
+    {
+      "unit_number": 2,
+      "unit_title": "Addition and Subtraction without Regrouping",
+      "topics": {
+        "Addition within 100": [
+          {
+            "question": "What is 25 + 34?",
+            "options": ["49", "59", "60", "61"],
+            "correct_answer": "59"
+          },
+          {
+            "question": "Find the sum: 42 + 16",
+            "options": ["48", "56", "58", "60"],
+            "correct_answer": "58"
+          },
+          {
+            "question": "What is 75 + 12?",
+            "options": ["87", "88", "89", "90"],
+            "correct_answer": "87"
+          },
+          {
+            "question": "Solve: 53 + 21",
+            "options": ["72", "73", "74", "75"],
+            "correct_answer": "74"
+          },
+          {
+            "question": "What is 60 + 25?",
+            "options": ["85", "86", "87", "88"],
+            "correct_answer": "85"
+          }
+        ],
+        "Subtraction within 100": [
+          {
+            "question": "What is 85 - 30?",
+            "options": ["50", "55", "60", "65"],
+            "correct_answer": "55"
+          },
+          {
+            "question": "Find the difference: 73 - 42",
+            "options": ["29", "30", "31", "32"],
+            "correct_answer": "31"
+          },
+          {
+            "question": "Solve: 90 - 28",
+            "options": ["60", "62", "64", "66"],
+            "correct_answer": "62"
+          },
+          {
+            "question": "What is 55 - 19?",
+            "options": ["34", "35", "36", "37"],
+            "correct_answer": "36"
+          },
+          {
+            "question": "Solve: 99 - 47",
+            "options": ["50", "51", "52", "53"],
+            "correct_answer": "52"
+          }
+        ],
+        "Word problems": [
+          {
+            "question": "Riya has 23 candies, and she buys 15 more. How many candies does she have now?",
+            "options": ["35", "36", "37", "38"],
+            "correct_answer": "38"
+          },
+          {
+            "question": "A shopkeeper had 72 apples. He sold 28 apples. How many apples are left?",
+            "options": ["43", "44", "45", "46"],
+            "correct_answer": "44"
+          },
+          {
+            "question": "Arjun had 50 chocolates. He gave 22 to his friend. How many chocolates does he have now?",
+            "options": ["26", "27", "28", "29"],
+            "correct_answer": "28"
+          },
+          {
+            "question": "A basket has 48 mangoes. If 19 mangoes are eaten, how many mangoes are left?",
+            "options": ["27", "28", "29", "30"],
+            "correct_answer": "29"
+          },
+          {
+            "question": "There are 36 students in a class. 17 of them are girls. How many boys are there?",
+            "options": ["17", "18", "19", "20"],
+            "correct_answer": "19"
+          }
+        ]
+      }
+    },
+    {
+      "unit_number": 3,
+      "unit_title": "Addition and Subtraction with Regrouping",
+      "topics": {
+        "Addition with carrying": [
+          {
+            "question": "What is 47 + 28?",
+            "options": ["65", "66", "75", "76"],
+            "correct_answer": "75"
+          },
+          {
+            "question": "Find the sum: 58 + 37",
+            "options": ["85", "94", "95", "96"],
+            "correct_answer": "95"
+          },
+          {
+            "question": "What is 69 + 24?",
+            "options": ["83", "92", "93", "94"],
+            "correct_answer": "93"
+          },
+          {
+            "question": "Solve: 47 + 35",
+            "options": ["72", "73", "81", "82"],
+            "correct_answer": "82"
+          },
+          {
+            "question": "What is 76 + 18?",
+            "options": ["84", "85", "94", "95"],
+            "correct_answer": "94"
+          }
+        ],
+        "Subtraction with borrowing": [
+          {
+            "question": "What is 52 - 29?",
+            "options": ["21", "22", "23", "24"],
+            "correct_answer": "23"
+          },
+          {
+            "question": "Solve: 71 - 48",
+            "options": ["21", "22", "23", "24"],
+            "correct_answer": "23"
+          },
+          {
+            "question": "Find the difference: 94 - 57",
+            "options": ["37", "38", "39", "40"],
+            "correct_answer": "37"
+          },
+          {
+            "question": "What is 83 - 65?",
+            "options": ["16", "17", "18", "19"],
+            "correct_answer": "18"
+          },
+          {
+            "question": "Solve: 72 - 39",
+            "options": ["31", "32", "33", "34"],
+            "correct_answer": "33"
+          }
+        ],
+        "Mixed addition and subtraction": [
+          {
+            "question": "What is 38 + 27 - 15?",
+            "options": ["48", "49", "50", "51"],
+            "correct_answer": "50"
+          },
+          {
+            "question": "Solve: 56 - 29 + 13",
+            "options": ["38", "39", "40", "41"],
+            "correct_answer": "40"
+          },
+          {
+            "question": "Find the result: 82 - 45 + 12",
+            "options": ["48", "49", "50", "51"],
+            "correct_answer": "49"
+          },
+          {
+            "question": "What is 67 + 25 - 30?",
+            "options": ["58", "59", "60", "61"],
+            "correct_answer": "62"
+          },
+          {
+            "question": "Solve: 93 - 64 + 25",
+            "options": ["52", "53", "54", "55"],
+            "correct_answer": "54"
+          }
+        ]
+      }
+    },
+    {
+      "unit_number": 4,
+      "unit_title": "Geometry and Measurement",
+      "topics": {
+        "Length": [
+          {
+            "question": "Which is the longest object?",
+            "options": ["Pencil", "Eraser", "Ruler", "Notebook"],
+            "correct_answer": "Ruler"
+          },
+          {
+            "question": "What unit do we use to measure the length of a classroom?",
+            "options": ["Meters", "Kilometers", "Centimeters", "Milliliters"],
+            "correct_answer": "Meters"
+          },
+          {
+            "question": "How many centimeters are there in 1 meter?",
+            "options": ["10", "100", "1000", "50"],
+            "correct_answer": "100"
+          },
+          {
+            "question": "Which is the shortest unit of measurement?",
+            "options": ["Meter", "Centimeter", "Kilometer", "Inch"],
+            "correct_answer": "Centimeter"
+          },
+          {
+            "question": "Which of these is the longest distance?",
+            "options": [
+              "5 meters",
+              "20 centimeters",
+              "3 kilometers",
+              "50 millimeters"
+            ],
+            "correct_answer": "3 kilometers"
+          }
+        ],
+        "Mass": [
+          {
+            "question": "Which object is the heaviest?",
+            "options": ["Feather", "Apple", "Chair", "Pencil"],
+            "correct_answer": "Chair"
+          },
+          {
+            "question": "What unit do we use to measure the weight of a watermelon?",
+            "options": ["Kilograms", "Grams", "Liters", "Centimeters"],
+            "correct_answer": "Kilograms"
+          },
+          {
+            "question": "Which unit is smaller than a kilogram?",
+            "options": ["Ton", "Gram", "Meter", "Kilometer"],
+            "correct_answer": "Gram"
+          },
+          {
+            "question": "Which of these items is measured in grams?",
+            "options": ["Car", "Bag of rice", "Packet of biscuits", "Table"],
+            "correct_answer": "Packet of biscuits"
+          },
+          {
+            "question": "What is the best unit to measure the weight of a dog?",
+            "options": ["Milligrams", "Grams", "Kilograms", "Tons"],
+            "correct_answer": "Kilograms"
+          }
+        ],
+        "Volume": [
+          {
+            "question": "What unit do we use to measure the amount of water in a bottle?",
+            "options": ["Liters", "Grams", "Meters", "Kilometers"],
+            "correct_answer": "Liters"
+          },
+          {
+            "question": "Which of these can hold the most water?",
+            "options": ["Cup", "Bucket", "Bottle", "Bathtub"],
+            "correct_answer": "Bathtub"
+          },
+          {
+            "question": "What is the best unit to measure the volume of a swimming pool?",
+            "options": ["Milliliters", "Liters", "Kilograms", "Centimeters"],
+            "correct_answer": "Liters"
+          },
+          {
+            "question": "A small glass of juice is about:",
+            "options": ["50 mL", "200 mL", "1 Liter", "10 Liters"],
+            "correct_answer": "200 mL"
+          },
+          {
+            "question": "Which container holds the least amount of liquid?",
+            "options": ["Teacup", "Water bottle", "Bucket", "Bathtub"],
+            "correct_answer": "Teacup"
+          }
+        ]
+      }
+    }
   ]
 }
