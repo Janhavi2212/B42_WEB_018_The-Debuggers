@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parents Page</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        .section1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+            color: aliceblue;
+            padding: 15px 30px;
+            font-size: 18px;
+        }
+
+        .section1 a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .section2 {
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .section3 {
+            background-color: lavender;
+            padding: 20px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .section3 button {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .section {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .add-child-btn {
+            background-color: #0057ff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="section1">
+        <h2>Welcome Parent</h2>
+        <p><a href="#">Parent Resources</a></p>
+    </div>
+
+    <div class="section2">
+        <div class="section3">
+            <div>
+                <h2>Welcome to Khan Academy</h2>
+                <a href="#">Learn what you can do with Khan Academy as a parent</a>
+            </div>
+            <button>Got it!</button>
+        </div>
+
+        <h2>Your children</h2>
+        <p>These are your children’s accounts. Click your child’s name to view their progress.</p>
+
+        <div class="section">
+            <h4>Ready to add your child?</h4>
+            <p>Click "Add a child" to create a new account for your child or connect to an existing account.</p>
+            <a href="#">Learn more about how to get your child set up</a>
+            <br>
+            <button class="add-child-btn">Add a child</button>
+        </div>
+    </div>
+</body>
+</html>
