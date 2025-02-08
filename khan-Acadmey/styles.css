@@ -1,0 +1,405 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00274d;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar .left,
+.navbar .right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.right a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.right a:hover {
+  color: #ffb3b3;
+}
+.navbar .search {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+  transition: border-color 0.3s ease;
+}
+
+.navbar .search:focus {
+  border-color: #ffb3b3;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.sidebar {
+  width: 250px;
+  background: white;
+  padding: 20px;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+}
+
+.class-box h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.class-box p {
+  margin: 10px 0;
+  font-size: 1em;
+}
+
+.units-list div {
+  margin: 10px 0;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.units-list div:hover {
+  background-color: #f0f0f0;
+}
+
+.course-challenge {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 2%;
+  padding-inline: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.course-challenge a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.course-challenge a:hover {
+  color: #0056b3;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.legend span {
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.legend span:hover {
+  color: #007bff;
+}
+
+/* Updated flex layout for units progress */
+.units-progress {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between; /* Align the items evenly */
+}
+
+.unit {
+  width: 48%; /* Two units per row with some spacing */
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+hr {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+.progress-grid {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.progress-grid span {
+  display: block;
+  font-family: Lato, "Noto Sans", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(33, 36, 44, 0.64);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.mastered {
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.mastered:hover {
+  color: #ffb3b3;
+}
+
+.mastered:hover::after {
+  content: "Mastered (100 points)\nGet a Proficient skill correct on the unit test.";
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: pre-line;
+  z-index: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  min-width: 200px;
+  text-align: center;
+}
+
+.mastered:hover::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid white;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar .left,
+  .navbar .right {
+    margin-bottom: 10px;
+    gap: 15px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .content {
+    padding: 15px;
+  }
+
+  .units-list div {
+    font-size: 0.9em;
+  }
+
+  .class-box h2 {
+    font-size: 1.3em;
+  }
+
+  .class-box p {
+    font-size: 0.9em;
+  }
+
+  .legend span {
+    font-size: 0.9em;
+  }
+
+  .progress-grid span {
+    font-size: 10px;
+  }
+
+  .mastered:hover::after {
+    font-size: 11px;
+    min-width: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar .left,
+  .navbar .right {
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  .units-list div {
+    font-size: 0.8em;
+  }
+
+  .class-box h2 {
+    font-size: 1.2em;
+  }
+
+  .class-box p {
+    font-size: 0.8em;
+  }
+
+  .legend span {
+    font-size: 0.8em;
+  }
+
+  .progress-grid span {
+    font-size: 9px;
+  }
+
+  .mastered:hover::after {
+    font-size: 10px;
+    min-width: 160px;
+  }
+}
+
+.units-progress {
+  font-family: Arial, sans-serif;
+}
+.progress-grid {
+  display: flex;
+  gap: 5px;
+}
+.white-block {
+  position: relative;
+  cursor: pointer;
+}
+.tooltip {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+.white-block:hover .tooltip {
+  visibility: visible;
+}
+
+.topics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  margin: 1.5rem;
+}
+.item:hover {
+  border-bottom: 3px solid blue;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+button {
+  padding: 0.5rem 3rem;
+  background-color: #1865f2;
+  cursor: pointer;
+  color: white;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #007bff;
+}
+
+input[type="radio"] {
+  cursor: pointer;
+}
+dialog.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+dialog.show > span {
+  text-transform: capitalize;
+  margin: 0.6rem;
+}
+
+#btnDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.questionCtn {
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.getStart {
+  padding: 0.5rem 3rem;
+  background-color: #1865f2;
+  cursor: pointer;
+  color: white;
+  margin-top: 0.3rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.getStart:hover {
+  cursor: pointer;
+  background-color: #007bff;
+}

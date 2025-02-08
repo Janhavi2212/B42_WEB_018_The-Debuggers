@@ -1,0 +1,597 @@
+/* Global reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* Navbar ------------------------------------------------------- */
+#navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+#navstart h3 {
+  font-size: 20px;
+  color: #0168c2;
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+input::placeholder {
+  color: #7f8c8d;
+}
+
+#navend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+#navend > a {
+  text-decoration: none;
+  color: #0168c2;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+#navend > a:hover {
+  color: #04519b;
+}
+
+#navend #signup {
+  padding: 10px 20px;
+  background-color: #06a3cf;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#navend #signup:hover {
+  background-color: #027aa7;
+}
+
+/* main section --------------------------- */
+#main {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background-color: green;
+  color: white;
+}
+
+#main > h1 {
+  font-size: 50px;
+}
+
+/* secondSection------------------------ */
+#secondSection {
+  display: flex;
+  justify-content: center;
+}
+
+#secondSection > div {
+  width: 50%;
+}
+
+#secondSection > div > h1 {
+  font-size: 30px;
+  font-weight: 550;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+/* imgSection-------------------- */
+#imgSection {
+  display: flex;
+  margin-top: 100px;
+}
+
+#imgSection > div > #lastimg {
+  width: 100%;
+}
+
+#imgSection > div {
+  border: 1px solid skyblue;
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  border-left-width: 5px;
+  display: flex;
+}
+
+/* thirdSection--------------------- */
+#thirdSection {
+  display: flex;
+  justify-content: center;
+}
+
+#thirdSection > div {
+  width: 50%;
+}
+
+#thirdSection > div > h1 {
+  font-size: 30px;
+  font-weight: 550;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+#thirdSection > div > button {
+  background-color: #04519b;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 40%;
+  margin-top: 30px;
+  margin-left: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#thirdSection > div > button:hover {
+  background-color: blue;
+}
+
+/* secondImgSection---------- */
+#secondImgSection {
+  display: flex;
+  margin-top: 100px;
+}
+
+#secondImgSection > div > #lastimg {
+  width: 100%;
+}
+
+#secondImgSection > div {
+  border: 1px solid skyblue;
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  border-left-width: 5px;
+  display: flex;
+}
+
+/* fourthSection----------------------- */
+#fourthSection {
+  display: flex;
+  justify-content: center;
+}
+
+#fourthSection > div {
+  width: 50%;
+}
+
+#fourthSection > div > h1 {
+  font-size: 30px;
+  font-weight: 550;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+#fourthSection > div > button {
+  background-color: #04519b;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 40%;
+  margin-top: 30px;
+  margin-left: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#fourthSection > div > button:hover {
+  background-color: blue;
+}
+
+/* fifthSection-------------------- */
+#fifthSection {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background-color: rgb(146, 56, 63);
+  color: white;
+  margin-top: 100px;
+}
+
+#fifthSection > h1 {
+  font-size: 30px;
+  font-weight: 400;
+  width: 70%;
+}
+
+/* sixthSection----------------- */
+#sixthSection {
+  display: flex;
+  justify-content: center;
+}
+
+#sixthSection > div {
+  width: 50%;
+}
+
+#sixthSection > div > h1 {
+  font-size: 30px;
+  font-weight: 550;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  width: 125%;
+}
+
+#sixthSection > div > button {
+  background-color: #04519b;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 40%;
+  margin-top: 30px;
+  margin-left: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#sixthSection > div > button:hover {
+  background-color: blue;
+}
+
+/* seventhSection--------------- */
+#seventhSection {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(62, 118, 51);
+  color: white;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+#seventhSection > div {
+  width: 50%;
+}
+
+#seventhSection > div > h1 {
+  font-size: 30px;
+  font-weight: 550;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  width: 125%;
+}
+
+#seventhSection > div > button {
+  background-color: whitesmoke;
+  border: none;
+  color: rgb(0, 157, 255);
+  padding: 10px;
+  width: 40%;
+  margin-top: 30px;
+  margin-left: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#seventhSection > div > button:hover {
+  border-radius: 10px;
+}
+
+/* Responsive Styles for Images and Layout on Smaller Devices */
+
+/* For screen sizes smaller than 1200px */
+@media screen and (max-width: 1200px) {
+  #imgSection {
+      flex-direction: column;
+  }
+  
+  #imgSection > div {
+      width: 100%;
+  }
+
+  #imgSection img {
+      width: 100%;
+      height: auto;
+  }
+
+  #secondImgSection {
+      flex-direction: column;
+  }
+  
+  #secondImgSection > div {
+      width: 100%;
+  }
+
+  #secondImgSection img {
+      width: 100%;
+      height: auto;
+  }
+}
+
+/* For screen sizes smaller than 1024px (Tablets) */
+@media screen and (max-width: 1024px) {
+  #secondSection, #thirdSection, #fourthSection, #sixthSection, #seventhSection {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  #secondSection > div, #thirdSection > div, #fourthSection > div, #sixthSection > div, #seventhSection > div {
+      width: 100%;
+  }
+
+  #secondSection > div > h1,
+  #thirdSection > div > h1,
+  #fourthSection > div > h1,
+  #sixthSection > div > h1,
+  #seventhSection > div > h1 {
+      font-size: 25px;
+  }
+
+  #thirdSection > div > button,
+  #fourthSection > div > button,
+  #sixthSection > div > button,
+  #seventhSection > div > button {
+      width: 80%;
+      margin-left: 0;
+  }
+
+  #fifthSection > h1 {
+      font-size: 20px;
+  }
+}
+
+/* For screen sizes smaller than 768px (Mobile) */
+@media screen and (max-width: 768px) {
+  #imgSection, #secondImgSection {
+      flex-direction: column;
+      margin-top: 50px;
+  }
+
+  #imgSection img, #secondImgSection img {
+      width: 100%;
+      height: auto;
+  }
+
+  #main > h1 {
+      font-size: 30px;
+  }
+
+  #thirdSection > div > button,
+  #fourthSection > div > button,
+  #sixthSection > div > button,
+  #seventhSection > div > button {
+      width: 80%;
+      margin-left: 0;
+  }
+
+  #fifthSection > h1 {
+      font-size: 18px;
+  }
+
+  #seventhSection > div > h1 {
+      font-size: 20px;
+  }
+}
+
+/* For very small devices (Portrait Mode) */
+@media screen and (max-width: 480px) {
+  #navBar {
+      flex-direction: column;
+      padding: 10px;
+  }
+
+  #navstart, #navend {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  #imgSection img, #secondImgSection img {
+      width: 100%;
+      height: auto;
+  }
+
+  #main > h1 {
+      font-size: 20px;
+  }
+
+  #thirdSection > div > button,
+  #fourthSection > div > button,
+  #sixthSection > div > button,
+  #seventhSection > div > button {
+      width: 90%;
+      margin-left: 0;
+  }
+
+  #fifthSection > h1 {
+      font-size: 16px;
+  }
+
+  #sixthSection > div > button {
+      width: 90%;
+  }
+
+  #seventhSection > div > h1 {
+      font-size: 18px;
+  }
+}
+
+
+/* footer section ----------------------- */
+
+  footer {
+    overflow-x: hidden;
+    width: 100%;
+    font-family: Lato, "Noto Sans", sans-serif;
+    background-color: #0b2149;
+    color: #8295ba;
+    padding: 15px 0px;
+    box-sizing: border-box;
+    padding-left: 10%;
+    font-size: 13px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 650;
+  }
+  a:hover,
+  #selectLangBtn:hover {
+    text-decoration: underline;
+  }
+  
+  #fcontainer {
+    margin: 1rem;
+    padding: 0.5rem;
+  }
+  
+  #fTopPart {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: baseline;
+  }
+  #fDetail {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #8295ba;
+    font-size: 20px;
+  }
+  #fDetail a {
+    font-size: 20px;
+  }
+  
+  /* Links style */
+  #fLinks {
+    display: flex;
+    gap: 10px;
+  }
+  
+  #fLinks > div {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .appImg {
+    width: 100px;
+    height: 33px;
+  }
+  
+  #fContact h2 {
+    color: white;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-bottom: 0%;
+  }
+  
+  #fContact > div {
+    margin-left: 5px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* language and coutry part */
+  #flanguage {
+    display: flex;
+    align-items: center;
+    justify-content: last baseline;
+    height: 20px;
+  }
+  #flanguage > span:last-child {
+    color: white;
+    font-size: 20px;
+    margin-top: -13px;
+    margin-left: -3px;
+  }
+  #selectLangBtn {
+    background-color: #0b2149;
+    border: none;
+    color: white;
+  }
+  
+  #fCountry img {
+    width: 16px;
+    height: 15px;
+    margin-bottom: -3px;
+    margin-left: 10px;
+  }
+  
+  /* most bottom part */
+  #fBottomPart {
+    width: 90%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #fBottomPart a {
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    align-items: center;
+    color: #ffffff;
+    display: inline-block;
+  }
+  
+  #mediaLinks {
+    display: flex;
+  }
+  
+  #mediaLinks span {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 10px;
+  }
+  .fbLogo {
+    background-image: url("https://cdn.kastatic.org/genwebpack/prod/en/images/e5b43b9c0717d989-facebook-logo-fill.svg");
+  }
+  .twLogo {
+    background-image: url("https://cdn.kastatic.org/genwebpack/prod/en/images/f5240dcae2b53974-twitter-logo-fill.svg");
+  }
+  .instaLogo {
+    background-image: url("https://cdn.kastatic.org/genwebpack/prod/en/images/62e92f7fbb787def-instagram-logo-fill.svg");
+  }
+  
+  .copyrightDiv a {
+    margin-left: 10px;
+  }
+  
+  @media screen and (max-width: 780px) {
+    #fTopPart {
+      flex-direction: column;
+    }
+    #fDetail {
+      width: 100%;
+      flex-direction: row;
+    }
+  }

@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  display: flex;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  width: 100%;
+}
+.left-section {
+  background-color: #2d5f45;
+  color: white;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.left-section .left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.illustration img {
+  width: 100%;
+}
+#learner-form select {
+  padding: 5px 10px;
+}
+#a {
+  color: blue;
+  text-decoration: underline;
+  padding: 10px;
+}
+.right-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+}
+.right-section .right-container {
+  align-items: left;
+}
+.role-selector {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.role {
+  padding: 10px 20px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.role.active {
+  background: #0044cc;
+  color: white;
+}
+.signup-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.signup-buttons button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px 30px;
+}
+
+.signup {
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup:hover {
+  border: 1px solid blue;
+}
+
+.login-link {
+  margin-top: 20px;
+}
+.hidden {
+  display: none;
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learners-Login</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        display: flex;
+        height: 100vh;
+      }
+      .container {
+        display: flex;
+        width: 100%;
+      }
+      .left-section {
+        background-color: #2d5f45;
+        color: white;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+      }
+      .left-section .left-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+      }
+      .illustration img {
+        width: 100%;
+      }
+      .right-section {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        align-items: center;
+      }
+      .right-section .right-container {
+        align-items: left;
+        width: 70%;
+      }
+      .signup-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        max-width: 300px;
+      }
+
+      .signup-buttons button {
+        background-color: white;
+        border: 1px solid black;
+        padding: 10px 30px;
+        width: 100%;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        display: block;
+      }
+
+      .signup:hover {
+        border: 1px solid blue;
+      }
+
+      .form {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+      }
+      .form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px; /* This adds space between form title and form */
+      }
+
+      .form form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+
+      .btn-container {
+        display: flex;
+        gap: 5px;
+      }
+
+      .form input[type="email"],
+      input[type="text"],
+      input[type="password"]{
+        width: 100%;
+        height: 20px;
+      }
+      .form button,
+      .form input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: grey;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      .form button:hover {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-section">
+        <div class="left-container">
+          <div class="illustration">
+            <img
+              src="https://blog.khanacademy.org/wp-content/uploads/2024/11/Blog_FeatureImage.jpg"
+              alt="School Illustration"
+            />
+          </div>
+          <h1 id="left-title">Join Khan Academy and Learn with us</h1>
+          <p id="left-desc">Log in to Khan Academy to get started!</p>
+          <small
+            >By signing up for Khan Academy, you agree to our
+            <a href="#">Terms of use</a> and
+            <a href="#">Privacy Policy</a>.</small
+          >
+        </div>
+      </div>
+      <div class="right-section">
+        <div class="right-container">
+          <div class="form">
+            <h2>Sign up</h2>
+            <form id="learnerSignUpForm">
+              <div class="form-group">
+                <label for="email">Your parent or guardian's email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="example@email.com"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="username">Choose a username</label>
+                <input type="text" id="username" placeholder="" required />
+              </div>
+              <div class="form-group">
+                <label for="password">Create a password</label>
+                <input type="password" id="password" placeholder="" required />
+              </div>
+              <div class="btn-container">
+                <button type="button" class="btn back" id="backBtn">
+                  Back
+                </button>
+                <input type="submit" class="btn signup" id="submitBtn"></input>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="signinAuth.mjs"></script>
+  </body>
+</html>
