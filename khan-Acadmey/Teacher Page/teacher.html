@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khan Academy Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #0a1f44;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+        }
+        .navbar nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .navbar nav a.active {
+            border-bottom: 2px solid white;
+        }
+        .add-school {
+            background: none;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+        }
+        .class-section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 60%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .class-info h2 {
+            margin: 0 0 10px;
+        }
+        .create {
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .tools {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .locked {
+            opacity: 0.6;
+            padding: 10px 0;
+        }
+        .khanmigo {
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Welcome, w.janvi22</h1>
+            <nav>
+                <a href="#">Khanmigo Tools</a>
+                <a href="#" class="active">Classes</a>
+                <a href="#">Students</a>
+                <a href="#">Resources</a>
+            </nav>
+            <button class="add-school">Add your school ✎</button>
+        </div>
+    </header>
+    
+    <main>
+        <section class="class-section">
+            <div class="info">
+                <h2>It's better with students!</h2>
+                <p>Get a live view into your students' progress, targeted assignment recommendations, and so much more!</p>
+                <button class="create">Create a class</button>
+            </div>
+            <div class="class-image">
+                
+            </div>
+        </section>
+        
+        <aside class="tools">
+            <h3>Khanmigo Tools</h3>
+            <p>Free AI powered tools designed to save you time and improve instruction!</p>
+            <div class="locked">
+                <h4>Lesson Plan </h4>
+                <p>Create structured, detailed lesson plans tailored to your curriculum and students' needs.</p>
+            </div>
+            <div class="locked">
+                <h4>Refresh My Knowledge </h4>
+                <p>Refresh your content knowledge in various subject areas.</p>
+            </div>
+            <button class="khanmigo">Get Khanmigo for free</button>
+        </aside>
+    </main>
+</body>
+</html>
