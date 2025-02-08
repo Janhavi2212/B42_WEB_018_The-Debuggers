@@ -49,11 +49,11 @@ function userSignIn(email, password) {
           };
           if (user.role == "teacher") {
             let str = JSON.stringify(obj);
-            let page = `./deleteTeacher.html`;
+            let page = `./Teacher.html`;
             window.location.href = page + "?data=" + encodeURIComponent(str);
           } else if (user.role == "parent") {
             let str = JSON.stringify(obj);
-            let page = `./deleteParent.html`;
+            let page = `./Parent page/parent.html`;
             window.location.href = page + "?data=" + encodeURIComponent(str);
           } else {
             let str = JSON.stringify(obj);
