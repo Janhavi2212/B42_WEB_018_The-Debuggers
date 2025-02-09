@@ -137,16 +137,11 @@ We welcome contributions!
 
 ## 👨‍💻 Author  
 
-- **Your Name**  
-- [GitHub](https://github.com/your-username)  
-- [LinkedIn](https://linkedin.com/in/your-profile)  
-
----
-
-## 📝 License  
-
-This project is licensed under the **MIT License**, making it open-source and free for anyone to use or modify.  
-
+- **Janhavi Walde**  
+- **Shivam Thakur**
+- **Tarun Kushwaha**
+- **Nikhil Khulbe**
+- **Aditya Kachade**
 ---
 
 ## 🔗 Live Demo  
