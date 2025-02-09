@@ -57,7 +57,7 @@ function userSignIn(email, password) {
             window.location.href = page + "?data=" + encodeURIComponent(str);
           } else {
             let str = JSON.stringify(obj);
-            let page = `./deleteHomepage.html`;
+            let page = `../Home.html`;
             window.location.href = page + "?data=" + encodeURIComponent(str);
           }
         } else {

@@ -78,15 +78,15 @@ async function parentSignUpGoogle() {
           };
           if (role == "teacher") {
             let str = JSON.stringify(tempObj);
-            let page = `./deleteTeacher.html`;
+            let page = `../Teacher Page/teacher.html`;
             window.location.href = page + "?data=" + encodeURIComponent(str);
           } else if (role == "parent") {
             let str = JSON.stringify(tempObj);
-            let page = `./deleteParent.html`;
+            let page = `../Parent page/parent.html`;
             window.location.href = page + "?data=" + encodeURIComponent(str);
           } else {
             let str = JSON.stringify(tempObj);
-            let page = `./deleteHomepage.html`;
+            let page = `../Home.html`;
             window.location.href = page + "?data=" + encodeURIComponent(str);
           }
          }
@@ -96,7 +96,7 @@ async function parentSignUpGoogle() {
           role: obj.role,
         };
         let str = JSON.stringify(tempObj);
-        let page = `./deleteParent.html`;
+        let page = `../Parent page/parent.html`;
         window.location.href = page + "?data=" + encodeURIComponent(str);
       })
       .catch((e) => {
@@ -138,15 +138,15 @@ async function teacherSignUpGoogle() {
           };
           if (role == "teacher") {
             let str = JSON.stringify(tempObj);
-            let page = `./deleteTeacher.html`;
+            let page = `../Teacher Page/teacher.html`;
             window.location.href = page + "?data=" + encodeURIComponent(str);
           } else if (role == "parent") {
             let str = JSON.stringify(tempObj);
-            let page = `./deleteParent.html`;
+            let page = `../Parent page/parent.html`;
             window.location.href = page + "?data=" + encodeURIComponent(str);
           } else {
             let str = JSON.stringify(tempObj);
-            let page = `./deleteHomepage.html`;
+            let page = `../Home.html`;
             window.location.href = page + "?data=" + encodeURIComponent(str);
           }
         }
@@ -156,7 +156,7 @@ async function teacherSignUpGoogle() {
           role: obj.role,
         };
         let str = JSON.stringify(tempObj);
-        let page = `./deleteTeacher.html`;
+        let page = `../Teacher Page/teacher.html`;
         window.location.href = page + "?data=" + encodeURIComponent(str);
       })
       .catch((e) => {

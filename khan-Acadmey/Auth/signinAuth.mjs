@@ -51,7 +51,7 @@ function insertUser(user) {
       };
       console.log("new Student = ", std);
       let str = JSON.stringify(std);
-      let page = `./deleteHomepage.html`;
+      let page = `../Home.html`;
       setTimeout(() => {
         window.location.href = page + "?data=" + encodeURIComponent(str);
       }, 500);
