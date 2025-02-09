@@ -89,7 +89,7 @@ async function parentSignUpGoogle() {
             let page = `./deleteHomepage.html`;
             window.location.href = page + "?data=" + encodeURIComponent(str);
           }
-        }
+         }
         let tempObj = {
           name: obj.name,
           email: obj.email,
