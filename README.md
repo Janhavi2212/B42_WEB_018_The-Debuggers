@@ -146,7 +146,7 @@ We welcome contributions!
 
 ## 🔗 Live Demo  
 
-👉 [View Live Project](https://your-netlify-url.netlify.app)  
+👉 [View Live Project]([https://your-netlify-url.netlify.app](https://app.netlify.com/sites/khan-acadmey-clone/configuration/general))  
 
 ---
 
